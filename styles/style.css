@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: content-box;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(/assets/codigo.png)
+}
+
+.cabecalho{
+    padding: 2% 0;
+}
+
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 64px;
+
+}
+.cabecalho__menu__links{
+    display: flex;
+    gap: 10px;
+    color: #FFBF44;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 483.65;
+    height: 34px;
+    font-family: "Do Hyeon", sans-serif;
+    text-decoration: none;
+    align-items: center;
+}
+
+.cabecalho__menu__links:hover{
+    color:#b8ac96b4 ;
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.apresentacao__curriculo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__curriculo__titulo{
+    color: #748c94;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 36px;
+}
+span{
+    color: #FFBF44;
+}
+
+.apresentacao__curriculo__intro{
+    color: #748c94;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.apresentacao__curriculo__links{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.apresentacao__curriculo__links__subtitulo{
+    color: #748c94;
+    font-family:"Do Hyeon", sans-serif;
+    font-size: 26px;
+}
+
+.apresentacao__curriculo__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #FFBF44;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #FFBF44;
+    font-family: "Lato", sans-serif;
+}
+
+.apresentacao__curriculo__links__navegacao:hover{
+    background-color: #b8ac96b4;
+    cursor: pointer;
+}
+.apresentacao__imagem{
+    width: 50%;
+    border-radius: 160px;
+    border: #FFBF44 solid 2px;
+
+}
+
+.apresentacao__imagem__habilidade{
+    width: 50%;
+}
+
+.projetos{ 
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.projetos__apresentacao{
+    width: 50%;
+}
+
+.projetos__apresentacao__imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+}
+.projetos__apresentacao__imagem__img{
+    width: 100%;
+    border-radius: 10px;
+    border: #FFBF44 solid 2px;
+}
+
+.rodape{
+    box-sizing: border-box;
+    border-top: #FFBF44 2px;
+    border-style:solid none none none ;
+    width: 100%;
+    padding: 20px; 
+    }
+
+.rodape__box{
+    display: flex;
+    flex-direction: column-reverse;
+    color: #748c94;
+    gap: 25px;
+    align-items: center;
+    }
+
+.rodape__box__desenvolvedor{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #748c94;
+}
+
+.rodape__box__logo{
+    width: 5%;
+}
