@@ -60,7 +60,7 @@ body{
 .apresentacao__curriculo__titulo{
     color: #748c94;
     font-family: "Do Hyeon", sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 span{
     color: #FFBF44;
@@ -69,7 +69,7 @@ span{
 .apresentacao__curriculo__intro{
     color: #748c94;
     font-family: "Lato", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: justify;
 }
 
@@ -83,7 +83,7 @@ span{
 .apresentacao__curriculo__links__subtitulo{
     color: #748c94;
     font-family:"Do Hyeon", sans-serif;
-    font-size: 26px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__curriculo__links__navegacao{
@@ -161,7 +161,7 @@ span{
 
 .rodape__box__desenvolvedor{
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #748c94;
 }
 
