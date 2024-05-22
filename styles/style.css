@@ -139,6 +139,7 @@ span{
     width: 50%;
     gap: 15px;
 }
+
 .projetos__apresentacao__imagem__img{
     width: 100%;
     border-radius: 10px;
@@ -168,22 +169,38 @@ span{
 }
 
 .rodape__box__logo{
-    width: 5%;
+    width: 10%;
 }
 
 @media (max-width: 985px) {
     .cabecalho{
         padding: 6%;
     }
-    .apresentacao{
-        padding: 0;
-        flex-direction: column-reverse;
+
+    .cabecalho__menu{
+        justify-content: center;
     }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
     .apresentacao__curriculo{
-        padding: 0;
+        width: auto;
+    }
     
+    .apresentacao__curriculo__titulo{
+        text-align: center;
     }
     .apresentacao__imagem{
         border-radius: 95px;
+    }
+
+    .rodape{
+        padding: 8%;
+    }
+
+    .rodape__box__logo{
+        width: auto
     }
 }
