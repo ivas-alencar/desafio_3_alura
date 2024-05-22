@@ -25,6 +25,7 @@ body{
     gap: 64px;
 
 }
+
 .cabecalho__menu__links{
     display: flex;
     gap: 10px;
@@ -47,7 +48,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 82px;
 }
 
 .apresentacao__curriculo{
@@ -92,7 +93,7 @@ span{
     gap: 16px;
     border: 2px solid #FFBF44;
     width: 50%;
-    text-align: center;
+    align-items: center;
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 700;
@@ -106,9 +107,10 @@ span{
     background-color: #b8ac96b4;
     cursor: pointer;
 }
+
 .apresentacao__imagem{
     width: 50%;
-    border-radius: 160px;
+    border-radius: 140px;
     border: #FFBF44 solid 2px;
 
 }
@@ -167,4 +169,21 @@ span{
 
 .rodape__box__logo{
     width: 5%;
+}
+
+@media (max-width: 985px) {
+    .cabecalho{
+        padding: 6%;
+    }
+    .apresentacao{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .apresentacao__curriculo{
+        padding: 0;
+    
+    }
+    .apresentacao__imagem{
+        border-radius: 95px;
+    }
 }
