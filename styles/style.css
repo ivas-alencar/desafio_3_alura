@@ -66,7 +66,9 @@ body{
 span{
     color: #FFBF44;
 }
-
+strong{
+    color: #FFBF44;
+}
 .apresentacao__curriculo__intro{
     color: #748c94;
     font-family: "Lato", sans-serif;
@@ -173,12 +175,18 @@ span{
 }
 
 @media (max-width: 985px) {
+    
     .cabecalho{
         padding: 6%;
     }
 
     .cabecalho__menu{
         justify-content: center;
+        gap: 12px;
+    }
+    .cabecalho__menu__links{
+        font-size: 1rem;
+        font-style: oblique;
     }
     .apresentacao{
         flex-direction: column-reverse;
@@ -187,6 +195,7 @@ span{
 
     .apresentacao__curriculo{
         width: auto;
+        align-items: center;
     }
     
     .apresentacao__curriculo__titulo{
@@ -196,6 +205,10 @@ span{
         border-radius: 95px;
     }
 
+    .apresentacao__curriculo__links__navegacao{
+        width: auto;
+        padding: 6%;
+    }
     .rodape{
         padding: 8%;
     }
