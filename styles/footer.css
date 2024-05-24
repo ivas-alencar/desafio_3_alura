@@ -1,0 +1,25 @@
+.rodape{
+    box-sizing: border-box;
+    border-top: var(--cor-secundaria) 2px;
+    border-style:solid none none none ;
+    width: 100%;
+    padding: 20px; 
+    }
+
+.rodape__box{
+    display: flex;
+    flex-direction: column-reverse;
+    color: var(--cor-primaria);
+    gap: 25px;
+    align-items: center;
+    }
+
+.rodape__box__desenvolvedor{
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    color: var(--cor-primaria);
+}
+
+.rodape__box__logo{
+    width: 10%;
+}

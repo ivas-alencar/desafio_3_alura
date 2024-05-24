@@ -1,0 +1,43 @@
+@media (max-width: 985px) {
+    
+    .cabecalho{
+        padding: 6%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 12px;
+    }
+    .cabecalho__menu__links{
+        font-size: 1rem;
+        font-style: oblique;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__curriculo{
+        width: auto;
+        align-items: center;
+    }
+    
+    .apresentacao__curriculo__titulo{
+        text-align: center;
+    }
+    .apresentacao__imagem{
+        border-radius: 95px;
+    }
+
+    .apresentacao__curriculo__links__navegacao{
+        width: auto;
+        padding: 6%;
+    }
+    .rodape{
+        padding: 8%;
+    }
+
+    .rodape__box__logo{
+        width: auto
+    }
+}

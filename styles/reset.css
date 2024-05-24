@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-background: #000000;
+
+    --cor-primaria: #748c94;
+    --cor-secundaria: #FFBF44;
+
+    
+    --cor-hover:#b8ac96b4;
+
+    --fonte-primaria:"Do Hyeon", sans-serif;
+    --fonte-secudaria: "Lato", sans-serif;
+}
+
+body{
+    box-sizing: content-box;
+    background-color: var(--cor-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(/assets/codigo.png)
+}

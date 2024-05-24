@@ -1,0 +1,150 @@
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__curriculo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__curriculo__titulo {
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+
+.apresentacao__curriculo__projeto{
+    color:var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+
+.apresentacao__curriculo__habilidade{
+    color:var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+
+.another__color__titulo{
+    color: var(--cor-secundaria);
+    text-align: start;
+    
+}
+
+.another__color__habilidade{
+    color: #FFBF44;
+    text-align: start;
+}
+
+.another__color__projeto{
+    color: #FFBF44;
+    text-align: center;
+}
+
+strong{
+    color: #FFBF44;
+}
+
+.apresentacao__curriculo__intro{
+    color: #748c94;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.apresentacao__curriculo__links{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.apresentacao__curriculo__links__subtitulo{
+    color: #748c94;
+    font-family:"Do Hyeon", sans-serif;
+    font-size: 1.5rem;
+}
+
+.apresentacao__curriculo__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #FFBF44;
+    width: 50%;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #FFBF44;
+    font-family: "Lato", sans-serif;
+}
+
+.apresentacao__curriculo__links__navegacao:hover{
+    background-color: #b8ac96b4;
+    cursor: pointer;
+}
+
+.apresentacao__imagem{
+    width: 50%;
+    border-radius: 140px;
+    border: #FFBF44 solid 2px;
+
+}
+
+.apresentacao__imagem__habilidade{
+    width: 50%;
+}
+
+.projetos{ 
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.projetos__apresentacao{
+    width: 50%;
+}
+
+.projetos__apresentacao__imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+}
+
+.projetos__apresentacao__imagem__img{
+    width: 100%;
+    border-radius: 10px;
+    border: #FFBF44 solid 2px;
+}
+
+
+#nome-escrito::after {
+    content: "|";
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+}

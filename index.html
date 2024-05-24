@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Currículo</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
 </head>
 
 <body>
    <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__links" href="index.html">
-                <img src="/assets/home.png">
-                Home
+                    <img src="/assets/home.png">
+                    Home
             </a>
             <a class="cabecalho__menu__links" href="habilidades.html">
                 <img src="/assets/habilidades.png">
@@ -27,7 +31,10 @@
     </header>
     <main class="apresentacao">
         <section class="apresentacao__curriculo">
-            <h1 class="apresentacao__curriculo__titulo">Ivas <span>Alencar</span></h1>
+            <h1 class="apresentacao__curriculo__titulo">Ivas<span class="another__color__titulo" id="nome-escrito">
+                <script src="./js/home.js"></script>
+            </span></h1>
+
             <p class="apresentacao__curriculo__intro">Olá! Me chamo Ivailson Bentes de Alencar Filho, também conhecido como <span> Ivas Alencar</span>. Tenho 25 anos e sou estudante do curso de <span>Filosofia Licenciatura</span> pela UFMA. Atualmente faço parte do Programa Trilhas de Jogos, desenvolvido pela <span>SECTI</span> em parceria com a <span> Alura</span>.</p>
             <div class="apresentacao__curriculo__links">
                 <h2 class="apresentacao__curriculo__links__subtitulo">Acesse minhas redes:</h2>
@@ -49,7 +56,7 @@
         <p class="rodape__box__desenvolvedor">Desenvolvido por Ivas Alencar.
         </p>
         <img class="rodape__box__logo" src="/assets/alura.png" alt="Logo Alura">
-    </section>
+        </section>
     </footer>
    
     </section>
